@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "d3": "^5.15.0",
+    "d3-array": "^2.4.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -26,8 +28,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
     ],
     "rules": {},
     "parserOptions": {
